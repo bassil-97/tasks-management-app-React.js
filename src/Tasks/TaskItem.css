@@ -1,0 +1,37 @@
+.task-item {
+    width: 100%;
+    padding: 1.5rem 1rem;
+    background-color: var(--sidebar-color);
+    border-radius: 10px;
+}
+
+.task-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-item h6 {
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 130px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.task-item p {
+    font-size: .9em;
+}
+
+.task-priority {
+    padding: .5rem 1rem;
+    font-size: .8em;
+    border-radius: 4px;
+}
+
+.priority-low { background-color: rgba(211, 211, 211, 0.411); }
+
+.priority-mid { background-color: rgb(252, 243, 207); }
+
+.priority-high { background-color: rgba(236, 112, 99, 0.753); }

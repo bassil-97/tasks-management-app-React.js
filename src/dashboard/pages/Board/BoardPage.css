@@ -1,0 +1,14 @@
+.board-page {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    .board-page {
+        justify-content: center;
+    }
+}
